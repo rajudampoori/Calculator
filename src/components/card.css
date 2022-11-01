@@ -1,0 +1,28 @@
+.card-container {
+    border: 1px solid black;
+    margin: auto;
+    width: 70vw;
+    height: 50vh;
+}
+
+.card-input {
+    display: grid;
+    grid-template: 100%/repeat(2,1fr);
+    column-gap: 2px;
+}
+
+.same {
+    display: grid;
+    grid-template:100%/repeat(4,1fr);
+    column-gap: 2px;
+}
+
+.card-input .inputs {
+    width: 52vw;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    width: 200px;
+}
